@@ -1,0 +1,180 @@
+# Design Portfolio - Shania Cabrera
+
+### Website Topic
+I hope to create a website that will serve as a design portfolio: it will demonstrate my interests, skills, and previous work. I plan to create a website showcasing my UX/UI work, whether that be app or game-oriented. This website should be accessible via desktop and mobile. I will prioritize the former because I believe most employers will be searching on their PCs.
+
+## Personal Website Design Exploration
+1. [eumRay Portfolio](https://eumray.com/?ref=godly/)
+     With varying and transitional fonts, eumRay emphasizes their visual design forte while still remaining professional. I also appreciate the effects they apply across images.
+    <!-- Source: Original works by eumRay -->
+     ![eumRay](/design-plan/inspiration/eumray.png)
+
+2. [Daniel's Portfolio](https://danielautry.com/about.html)
+    I like the way Daniel lays out his previous projects. The visual theme is also similar to what I would like to achieve.
+    <!-- Source: Original works by Daniel -->
+     ![Daniel website](/design-plan/inspiration/dan.png)
+
+3. [Zara's Portfolio](http://zaradrei.com/)
+    Visually compelling and her previous work/content immediately lets the user know that she is serious about beautification.
+    Handy knowledge of website optimizer: <https://www.boldgrid.com/w3-total-cache/>
+    <!-- Source: Original works by Zara -->
+    ![Zara website](/design-plan/inspiration/zara.png)
+
+## Visuals Inspiration
+I hope to also indicate my personality and interests via the visual theming of my website. To this end, it may be in my interest to incorporate black, gray, and white for the layout; this helps create a legible background (it will not overshadow my primary content).
+
+Then I would like to contrast this with a bold color, such as red or green to indicate vitality. Furthermore, I hope to use interesting typography to grab the attention of my viewer.
+
+![Inspiration](/design-plan/inspiration/inspo.png)
+![Visuals](/design-plan/inspiration/visual.png)
+![Feel](/design-plan/inspiration/feel.png)
+
+## Audience & Goals
+
+### Audience
+My target audience consists of organizations seeking a Junior UX/UI designer. I hope to appeal to companies developing digital applications within the general tech, media-creation, and gaming industries.
+
+### Audience Goals
+1. **Assess Design Skills**: Employers would like to evaluate my proficiency in UX design principles, visual design, interaction design, and information architecture. Looking for a strong understanding of user-centered design and how I apply it in my work.
+
+      `*Design Ideas and Choices*`
+      - Page dedicated to my past projects to demonstrate experience
+      - Resume on its own page for easy access
+      - - Include an "About" page that will list my professional contact information.
+      - `---------------------------`
+
+2. **Reviewing Process and Methodology**: Understand my approach to UX design and how I tackle projects. They may look for evidence of user research, wireframing, prototyping, usability testing, and iterative design processes. They want to see if you follow a structured and well-documented design process.
+
+      `*Design Ideas and Choices*`
+      - Need a page per project, it will lay out the process for its development.
+      - Problem, Context, Credit, Activities, Challenges, Final Outcomes
+      - `---------------------------`
+
+3. **Evaluating Problem-Solving Abilities**: Assess my problem-solving skills by examining how I identify user needs, define design problems, and develop effective solutions.
+
+      `*Design Ideas and Choices*`
+      - Clearly articulate the challenges I faced
+      - Dedicate a Challenges section in each project page
+      - `---------------------------`
+
+4. **Assessing Collaboration and Communication Skills**: Gauge my ability to work in a team and communicate my design ideas effectively.
+
+      `*Design Ideas and Choices*`
+      - Provide a Credits section per project page
+      - `---------------------------`
+
+5. **Evaluating Creativity and Innovation**: Employers want to see if I bring a creative and innovative approach to my designs. Unique and inventive solutions that go beyond standard design patterns.
+
+      `*Design Ideas and Choices*`
+      - Showcase game design as well as mobile design for HCI course
+      - Maybe have a page about the design of this website
+      - Page dedicate to other creative hobbies
+      - `---------------------------`
+
+
+7. **Assessing Documentation and Presentation Skills**: They want to evaluate how well I can present my work. Clear and concise case studies, well-organized visuals, and the ability to articulate my design process and decision-making.
+
+      `*Design Ideas and Choices*`
+      - Show affinity diagramming as well as markdown files
+      - `---------------------------`
+
+
+## Content Planning
+### Planned Content
+**Images**
+- Headshot
+- Groove that Goob Banner
+- Goob concept art
+- Goob paper prototype
+- Goob showcase
+- Duck App Banner
+- Duck app prototype
+- Affinity diagrams / Post-Its
+- Duck app presentation
+- Drawings: Character design, more art needed
+- Photography samples
+
+**Text**
+- Current Resume
+- Problem, Context, Credit, Activities, Challenges, Final Outcomes
+- Contact information
+
+**Misc**
+- SoundCloud embedded links, until I can find out how to insert docs
+- Animations embedded via GoogleDrive
+- Demonstration of art via different mediums
+  - Pixel Art
+  - Traditional Art
+  - Digital Art
+  - Animations (_new_)
+- Tile and sprites creation
+- Music Production, Samples (_new_)
+  - New samples uploaded
+- Programming knowledge (_new_) --> In "About" page
+- Video Game Projects: Text
+- Contact information
+  - Up-to-date image of self (_new_)
+  - Contact form (Inputs = name, email, subject, message)
+
+
+### Content Justification
+The chosen content showcases my skills, experience, and creative abilities in the field of UX design. By including the Groove that Goob and Duck App projects, I provide tangible examples of my design process, from concept art and paper prototypes to final showcases and presentations. The character design section further demonstrates my artistic skills and versatility. Including my resume helps employers assess my qualifications quickly. Contact information ensures ease of communication. By incorporating SoundCloud embedded links and animations, I can showcase my additional talents which may let me stand out.
+
+### Home Page Content
+As the first page to be encountered by my audience, I believe that it should provide a short introduction on my objective, skills, and interests. Afterward, I would like to provide a list of my portfolio highlights. By clicking on these projects, the users will be able to see more details on their development. Afterward, the footer should include by contact information and some detail on the website's development.
+
+## Information Architecture
+### Content Organization
+- Work (homepage)
+  - The primary purpose of my website is to showcase my previous UX design work. I will add a catalog view of my previous work. They may be clicked on for further information.
+- Resume
+  - This will provide easy access to my resume. The straightforward navigation title may ensure that it is easy to find my formal resume.
+- About
+  - This page provides an opportunity add a face to my portfolio, as well as my interests in video games and animation. Lastly, I can include some contact information in this page.
+- B-Side
+  - Additional material to my artistic portfolio. This will include animations, songs, and photos I have produced for leisure. This can showcase my ability to be creative and inventive. The title "B-side" can help drive the theme of my page.
+
+## Visual Theme
+### Theme Ideas
+**"Punk" Theme**
+I have chosen to incorporate a punk aesthetic into my website design to showcase my personality and creative mindset to potential UX/UI employers. By using cut-out letters of varying fonts and sizes, I aim to communicate authenticity, differentiate myself from the crowd, and demonstrate my ability to bring fresh perspectives and unique ideas to my design work. The punk aesthetic evokes a sense of energy and excitement, allowing me to create a memorable and visually striking website that captures the attention of employers. With a consistent color palette of gray, black, white, and neon green used as accents, I maintain a balance between professionalism and personal style, ensuring that my design choices remain sophisticated and impactful. By embracing this punk aesthetic, I can create an emotional connection with potential employers and leave a lasting impression, showcasing my ability to infuse personality and creativity into my designs while still delivering high-quality user experiences.
+
+**Tech Theme**
+Another theme idea for my UX design portfolio could revolve around a "Futuristic" or "Tech-Forward" concept. This theme allows me to showcase my expertise in designing for innovation, cutting-edge technologies, and forward-thinking user experiences. With a clean and minimalistic design approach, I aim to convey professionalism and sophistication while emphasizing user-centric design principles. By incorporating high-tech visuals, such as abstract shapes, geometric patterns, and futuristic illustrations, along with vibrant colors like electric pink, I can create a visually captivating portfolio that captures the essence of a futuristic and technologically advanced world. Through interactive and dynamic components, including scroll animations and micro-interactions, I can demonstrate my ability to engage users and create immersive experiences. By featuring case studies that involve emerging technologies such as virtual reality, augmented reality, artificial intelligence, or Internet of Things, I can highlight my expertise in designing for the future.
+
+### Final Theme
+I will be using my first-pitched theme, however will be trying to incorporate scroll animations and micro-interactions to increase the professionalism of my site. It may also enhance user engagement and create a dynamic user experience; I can bring movement and interactivity to my portfolio, making it visually engaging and captivating for potential employers. I hope to create a unique and modern fusion, reflecting my personality while demonstrating my ability to think creatively and push the boundaries of traditional design.
+
+## Persona
+Oscar Alvar is a middle-aged professional in the gaming industry. Specifically, he works as a hiring manager for an independent video game studio, in which he searches for possible interns that demonstrate interest and skill relevant to the gaming industry. Alvar has almost two decades in sponsoring and developing project-based teams under his belt.
+
+Interns meeting his qualifications typically display knowledge of programming languages (ex: C++) or animation/modeling skills (creating sprites, textures, etc.). He conducts most of his research on a PC. He may spend as long as 2 minutes on a website when searching for interns.
+
+## Layout & Composition
+### Layout and Site Design
+
+The homepage should briefly introduce my career interest and personality to potential employers. To this end, I hope to include a short paragraph describing my skills and design focus. An image to the right will show a candid profile picture to demonstrate my personality. As the user scrolls down, my past projects will appear.
+
+![Homepage](/design-plan/home.jpg)
+![Resume](/design-plan/resume.jpg)
+![Work](/design-plan/work.jpg)
+![About](/design-plan/about.jpg)
+
+### Figma Prototypes
+[Shania's UX Portfolio](https://www.figma.com/file/gLdD1DalIHyRdDNFMVQK0u/website?type=design&node-id=47%3A3&t=SCd6XOOH4oPQhHoB-1)
+
+![Figma Homepage](/design-plan/f-home.png)
+![Figma Goob](/design-plan/f-goob.png)
+![Figma Duck](/design-plan/f-duck.png)
+
+![Figma Goob Page](/design-plan/f-g-page.png)
+![Figma Duck Page](/design-plan/f-d-page.png)
+
+
+### Refined Design - Persona Rationale
+Alvar is hoping to identify a person that has produced enough content to qualify for a position at an internship at his video game studio. Demonstration of art skills, prior team projects within video game development, and familiarity with some programming are essential to game development execution.
+
+Providing animations and art clearly lets Alvar know whether or not someone meets minimum design/art requirements. Content like music may prove itself to be a useful/bonus skill. Lastly, Oscar would benefit from gauging a person's ability to cooperate and collaborate with other thinkers.
+
+### Reference Resources
+INFO 2300 Canvas page
