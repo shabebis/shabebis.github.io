@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap');
+
+html {
+    background-color: #efe9e9;
+    font-family: 'Krub', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    padding: 1%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-logo {
+    max-width: 25%;
+    height: auto;
+}
+
+
+/* ----- Wide Display (desktop) ----- */
+
+@media screen and (min-width: 601px){
+
+nav li {
+    display: inline;
+}
+
+}
