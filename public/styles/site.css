@@ -167,43 +167,14 @@ header {
 
 
 /* Welcome*/
-.section{
-    /* display: flex; */
-    /* align-items:center; */
-    min-height: 10em;
-}
-
-#intro {
-    border-style: double;
-}
-
-/* .box{
-    display: flex;
-    width: 70%;
-} */
-
-/* .heading--text{
-  display:inline;
-  letter-spacing: 10px;
-  height: 60px;
-  padding: 15px;
-  background-color: #04AA6D;
-  color:white;
-  margin-right: 20px;
-} */
-
-/* .paragraph--texts{
- align-self: center;
-} */
-
 #hello {
     transform: rotate(-90deg);
     font-style: italic;
-    font-size: 2em;
-    height: 1em;
-    /* max-width: 10em; */
-    border-style: dotted;
+    font-size: 1.3em;
     align-self: flex-end;
+    height: 1em;
+    max-width: 2em;
+    margin-right: 1em;
 }
 
 #welcome-pic {
