@@ -12,16 +12,24 @@ html {
     background-color: whitesmoke;
     font-family: 'Krub', sans-serif;
     font-style: normal;
-    font-size: 1em;
+    font-size: 0.7em;
+    scroll-behavior: smooth;
 }
 
 h1 {
-    font-weight: 700;
     font-family: 'Chivo', sans-serif;
+    font-weight: 700;
 }
 
 h2 {
     font-weight: 400;
+}
+
+.caps {
+    font-family: 'Chivo', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
 }
 
 .row {
@@ -35,23 +43,146 @@ h2 {
 }
 
 #logo {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
 }
 
+/* Navigation */
+nav ul li{
+    list-style: none;
+    margin-bottom: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+}
+
+/* Mobile - Hamburger Menu */
+header {
+    margin-bottom: 5em;
+}
+
+.topNav {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    background-color: #000000;
+}
+  
+.ham {
+    position: relative;
+    width: 7rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    background: none;
+    border-style:groove;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+  
+/* .menuX {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+} */
+  
+.sideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 101;
+    background: black;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    /* hide the menu above the screen by default */
+    transform: translateX(-100%);
+    transition: ease-in;
+    /* transition: transform 0.2s ease; */
+}
+  
+.showNav {
+    transform: translateX(0);
+}
+  
+.sideNav ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 5rem;
+  }
+  
+.sideNav ul li a {
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 1rem;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+.sideNav ul li a:hover, .sideNav ul li a:focus {
+    border-bottom: 2px solid white;
+  }
+  
+.overlay {
+    position: fixed;
+    display: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+  }
+  
+.showOverlay {
+    display: block;
+  }
+
+
 /* Welcome*/
 .section{
-    display: flex;
-    align-items:center;
+    /* display: flex; */
+    /* align-items:center; */
     min-height: 10em;
 }
 
-.box{
-    display: flex;
-    width: 70%;
+#intro {
+    border-style: double;
 }
 
-.heading--text{
+/* .box{
+    display: flex;
+    width: 70%;
+} */
+
+/* .heading--text{
   display:inline;
   letter-spacing: 10px;
   height: 60px;
@@ -59,23 +190,42 @@ h2 {
   background-color: #04AA6D;
   color:white;
   margin-right: 20px;
-}
-.paragraph--texts{
+} */
+
+/* .paragraph--texts{
  align-self: center;
-}
+} */
 
 #hello {
     transform: rotate(-90deg);
     font-style: italic;
-    font-size: 1em;
+    font-size: 2em;
+    height: 1em;
+    /* max-width: 10em; */
+    border-style: dotted;
+    align-self: flex-end;
 }
 
 #welcome-pic {
-    width: 30%;
+    width: 40%;
     height: auto;
-    transform: rotate(7.028deg);
+    transform: rotate(7deg);
+    margin-top: 1em;
+    /* center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#goob-poster {
+    width: 50%;
+    height: auto;
+}
+
+#duck-phone {
+    width: 50%;
+    height: auto;
+}
 
 /* Footer */
 footer {
@@ -94,6 +244,11 @@ footer {
 /* ----- Wide Display (desktop) ----- */
 
 @media screen and (min-width: 601px){
+
+.d-row {
+    display: flex;
+    flex-direction: row;
+}
 
 nav li {
     display: inline;

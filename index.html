@@ -6,38 +6,54 @@
   <meta name="viewport" content="width=width-device, initial-scale=1">
   <title>Shania Cabrera</title>
   <link href="public/styles/site.css" rel="stylesheet">
+  <link href="public/scripts/menu.js" rel="stylesheet">
 </head>
 
 <body>
   <header class="row">
-    <div class="logo">
-      <a href="index.html">
-        <picture>
-          <!-- Source: name.png by Shania Cabrera-->
-          <img id="logo" src='public/images/name.png' alt="Shania Cabrera">
-        </picture>
-      </a>
+    <nav class="topNav">
+      <div class="logo">
+        <a href="index.html">
+          <picture>
+            <!-- Source: name.png by Shania Cabrera-->
+            <img id="logo" src='public/images/name.png' alt="Shania Cabrera">
+          </picture>
+        </a>
+      </div>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="creative.html">Creative</a></li>
-        </ul>
-      </nav>
+      <button class="ham">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <nav class="sideNav">
+      <button class="menuX">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <ul>
+        <li><a class="menuLink" href="#work">Work</a></li>
+        <li><a class="menuLink" href="resume.html">Resume</a></li>
+        <li><a class="menuLink" href="about.html">About</a></li>
+        <li><a class="menuLink" href="creative.html">Creative</a></li>
+      </ul>
+    </nav>
+
   </header>
 
 
-  <div class="section">
+  <div class="row">
     <p id="hello">Hello! ¡Hola! Ciao!</p>
-    <div class="col">
+    <div class="col" id="intro">
       <h1>I'm Shania Cabrera, a UI engineer and UX/interaction designer from Cornell University.</h1>
       <h2>I hope to create immersive user experiences and drive innovation in the tech and gaming industry.</h2>
     </div>
   </div>
-
-
 
   <picture>
     <img id="welcome-pic" src="public/images/headphones.jpg" alt="Shania wears headphones for music production.">
@@ -45,12 +61,13 @@
   </picture>
 
 
+  <h1 class="caps" id="work">Previous Work</h1>
   <!-- Work -->
   <div>
     <!-- "Groove that Goob" Card -->
-    <div class="row">
+    <div class="d-row">
       <figure>
-        <img src="public/images/goob/goob-poster.png"
+        <img id="goob-poster" src="public/images/goob/goob-poster.png"
           alt="Poster for Groove that Goob. Goob looks up at a towering skyscraper.">
         <!-- Illustrated by Ashley Xiang. Composited by Leon Carranza -->
       </figure>
@@ -74,7 +91,7 @@
     <!-- "Duck Memo" Card -->
     <div class="row">
       <figure>
-        <img src="public/images/duck/phone-duck.png" alt="A phone displays the Duck Memo application.">
+        <img id="duck-phone" src="public/images/duck/phone-duck.png" alt="A phone displays the Duck Memo application.">
         <!-- Designed by Shania Cabrera -->
       </figure>
 
@@ -91,14 +108,6 @@
         <p>Greatest Social Impact</p>
       </div>
     </div>
-  </div> <!-- End of Work -->
-
-  <!-- Personal Projects -->
-  <div>
-    <h1>Personal Projects</h2>
-      <p>Handmade Robot</p>
-      <p>Game Development</p>
-      <p>Creating all assets</p>
   </div>
 
   <!-- Footer -->
@@ -114,7 +123,7 @@
           </a>
 
         </div>
-        <section>
+      </section>
 
           <ul>
             <h3>UX/UI Design</h3>
@@ -125,5 +134,6 @@
   </footer>
 
 </body>
+
 
 </html>
