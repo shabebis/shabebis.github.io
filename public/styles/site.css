@@ -48,7 +48,7 @@ h2 {
 }
 
 /* Navigation */
-nav ul li{
+nav ul li {
     list-style: none;
     margin-bottom: 1.5em;
 }
@@ -76,32 +76,35 @@ header {
     align-items: center;
     background-color: #000000;
 }
-  
+
 .ham {
     position: relative;
     width: 7rem;
     height: 3rem;
     margin-left: 0.5rem;
     background: none;
-    border-style:groove;
+    border-style: groove;
     border-radius: 5px;
     cursor: pointer;
     color: white;
 }
-  
-/* .menuX {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    width: 2rem;
+
+.menuX {
+    /* position: absolute; */
+    position: relative;
+    /* top: 2rem;
+    right: 2rem; */
+    width: 5rem;
     height: 2rem;
     margin-left: 0.5rem;
     background: none;
     border: none;
     cursor: pointer;
     color: white;
-} */
-  
+
+}
+
+
 .sideNav {
     position: fixed;
     top: 0;
@@ -114,40 +117,36 @@ header {
     overflow: hidden;
     color: white;
     /* hide the menu above the screen by default */
-    transform: translateX(-100%);
-    transition: ease-in;
-    /* transition: transform 0.2s ease; */
+    /* transform: translateX(-100%);
+    transition: ease-in; */
 }
-  
+
 .showNav {
     transform: translateX(0);
 }
-  
+
 .sideNav ul {
     width: 100%;
     height: 100%;
-    list-style: none;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
     padding-top: 5rem;
-  }
-  
+    align-items: end;
+}
+
 .sideNav ul li a {
     display: block;
     color: white;
     padding-bottom: 10px;
     margin-top: 1rem;
     border-bottom: 2px solid black;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-  }
-  
-.sideNav ul li a:hover, .sideNav ul li a:focus {
+}
+
+.sideNav ul li a:hover,
+.sideNav ul li a:focus {
     border-bottom: 2px solid white;
-  }
-  
+}
+
 .overlay {
     position: fixed;
     display: none;
@@ -159,11 +158,11 @@ header {
     background: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100vh;
-  }
-  
+}
+
 .showOverlay {
     display: block;
-  }
+}
 
 
 /* Welcome*/
@@ -188,14 +187,24 @@ header {
     margin-right: auto;
 }
 
-#goob-poster {
-    width: 50%;
+.card {
+    width: 90%;
     height: auto;
+    flex-shrink: 0;
 }
 
-#duck-phone {
-    width: 50%;
+.card-role {
+    list-style-type: none;
+    background-color: gainsboro;
+    border-radius: 0.25em;
+}
+
+.card-img {
+    width: 100%;
     height: auto;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+    /* z-index: 103; */
 }
 
 /* Footer */
@@ -214,18 +223,18 @@ footer {
 
 /* ----- Wide Display (desktop) ----- */
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 650px) {
 
-.d-row {
-    display: flex;
-    flex-direction: row;
-}
+    .d-row {
+        display: flex;
+        flex-direction: row;
+    }
 
-nav li {
-    display: inline;
-}
+    nav li {
+        display: inline;
+    }
 
-h1 {
+    /* h1 {
     font-size: 36px;
 }
 
@@ -235,6 +244,9 @@ h2 {
 
 #hello {
     font-size: 2em;
-}
+} */
 
+    html {
+        font-size: 0.5em;
+    }
 }
