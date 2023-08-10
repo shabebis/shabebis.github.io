@@ -103,22 +103,20 @@ header {
     color: white;
 
 }
-
-
 .sideNav {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     bottom: 0;
     z-index: 101;
     background: black;
-    width: 300px;
+    width: 25vh;
     height: 100vh;
     overflow: hidden;
     color: white;
     /* hide the menu above the screen by default */
-    /* transform: translateX(-100%);
-    transition: ease-in; */
+    /* transform: translateX(-500%); */
+    transition: ease-in;
 }
 
 .showNav {
@@ -164,16 +162,18 @@ header {
     display: block;
 }
 
-
 /* Welcome*/
 #hello {
     transform: rotate(-90deg);
+    font-family: 'Chivo', sans-serif;
     font-style: italic;
+    font-weight: lighter;
     font-size: 1.3em;
     align-self: flex-end;
     height: 1em;
     max-width: 2em;
     margin-right: 1em;
+    letter-spacing: 0.65em;
 }
 
 #welcome-pic {
@@ -220,6 +220,9 @@ footer {
     height: auto;
 }
 
+.hidden {
+    display: none;
+  }
 
 /* ----- Wide Display (desktop) ----- */
 

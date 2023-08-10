@@ -4,15 +4,27 @@ const ham = document.querySelector(".ham")
 const menuX = document.querySelector(".menuX")
 const menuItems = document.querySelectorAll(".menuLink")
 
-menuItems.forEach(menuItem => {
-  menuItem.addEventListener("click", toggleHamburger)
-})
+// menuItems.forEach(menuItem => {
+//   menuItem.addEventListener("click", toggleHamburger)
+// })
 
-ham.addEventListener("click", toggleHamburger)
-menuX.addEventListener("click", toggleHamburger)
-overlay.addEventListener("click", toggleHamburger)
+// ham.addEventListener("click", toggleHamburger)
+// menuX.addEventListener("click", toggleHamburger)
+// overlay.addEventListener("click", toggleHamburger)
 
-function toggleHamburger() {
-  overlay.classList.toggle("showOverlay")
-  sideNav.classList.toggle("showNav")
-}
+// function toggleHamburger() {
+//   overlay.classList.toggle("showOverlay")
+//   sideNav.classList.toggle("showNav")
+// }
+
+
+$("#ham").click(function() {
+  console.log("yippee");
+  if ($("sideNav").hasClass("hidden")) {
+    $("sideNav").removeClass("hidden");
+  } else {
+    $("sideNav").addClass("hidden");
+  }
+});
+
+
