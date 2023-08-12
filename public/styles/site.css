@@ -90,10 +90,9 @@ header {
 }
 
 .menuX {
-    /* position: absolute; */
-    position: relative;
-    /* top: 2rem;
-    right: 2rem; */
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 5rem;
     height: 2rem;
     margin-left: 0.5rem;
@@ -101,8 +100,8 @@ header {
     border: none;
     cursor: pointer;
     color: white;
-
 }
+
 .sideNav {
     position: fixed;
     top: 0;
@@ -110,17 +109,11 @@ header {
     bottom: 0;
     z-index: 101;
     background: black;
-    width: 25vh;
+    width: 40vh;
     height: 100vh;
     overflow: hidden;
     color: white;
-    /* hide the menu above the screen by default */
-    /* transform: translateX(-500%); */
     transition: ease-in;
-}
-
-.showNav {
-    transform: translateX(0);
 }
 
 .sideNav ul {
@@ -129,7 +122,7 @@ header {
     display: flex;
     flex-flow: column nowrap;
     padding-top: 5rem;
-    align-items: end;
+    /* align-items: end; */
 }
 
 .sideNav ul li a {
@@ -173,7 +166,7 @@ header {
     height: 1em;
     max-width: 2em;
     margin-right: 1em;
-    letter-spacing: 0.65em;
+    letter-spacing: 0.5em;
 }
 
 #welcome-pic {
