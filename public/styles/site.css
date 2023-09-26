@@ -209,19 +209,19 @@ footer {
 }
 
 #footer-logo {
-    max-width: 25%;
+    width: 10em;
     height: auto;
+    margin-right: -10px;
 }
 
 .hidden {
     display: none;
-  }
+}
 
 /* ----- Wide Display (desktop) ----- */
 
 @media screen and (min-width: 650px) {
-
-    .d-row {
+    .wide-row {
         display: flex;
         flex-direction: row;
     }
@@ -230,19 +230,24 @@ footer {
         display: inline;
     }
 
-    /* h1 {
-    font-size: 36px;
-}
+    img {
+        width: 20%;
+        height: auto;
+    }
 
-h2 {
-    font-size: 32px;
-}
+    .card-img {
+        min-width: 100px;
+        max-width: 250px;
+        height: auto;
+        margin-right: 50%;
 
-#hello {
-    font-size: 2em;
-} */
+    }
+
+    #welcome-pic {
+        margin-left: 10%;
+    }
 
     html {
-        font-size: 0.5em;
+        font-size: .8em;
     }
 }

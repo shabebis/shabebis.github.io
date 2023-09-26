@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=width-device, initial-scale=1">
@@ -28,7 +29,7 @@
 
     <div class="overlay"></div>
 
-    <nav class="sideNav hidden" id="sideNav"> 
+    <nav class="sideNav hidden" id="sideNav">
       <button class="menuX" id="menuX">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -43,34 +44,39 @@
     </nav>
   </header>
 
-  <div class="row">
-    <p id="hello" class="caps">Hello¡Hola!</p>
-    <div class="col">
-      <h1>I'm Shania Cabrera, a UI engineer and UX/interaction designer from Cornell University.</h1>
-      <h2>I hope to create immersive user experiences and drive innovation in the tech and gaming industry.</h2>
+  <div class="wide-row">
+    <div class="row">
+      <p id="hello" class="caps">Hello¡Hola!</p>
+      <div class="col">
+        <h1>I'm Shania Cabrera, a UI engineer and UX/interaction designer from Cornell University.</h1>
+        <h2>I hope to create immersive user experiences and drive innovation in the tech and gaming industry.</h2>
+      </div>
     </div>
-  </div>
 
-  <picture>
-    <img id="welcome-pic" src="public/images/headphones.jpg" alt="Shania wears headphones for music production.">
-    <!-- Original content by Shania Cabrera -->
-  </picture>
+    <picture>
+      <img id="welcome-pic" src="public/images/headphones.jpg" alt="Shania wears headphones for music production.">
+      <!-- Original content by Shania Cabrera -->
+    </picture>
+  </div>
 
   <h1 class="caps" id="work">Previous Work</h1>
 
   <!-- "Groove that Goob" Card -->
-  <div class="row card">
+  <div id="goob" class="row card">
     <figure>
       <img class="card-img" src="public/images/goob/goob-poster.png"
         alt="Poster for Groove that Goob. Goob looks up at a towering skyscraper.">
       <!-- Illustrated by Ashley Xiang. Composited by Leon Carranza -->
     </figure>
-    <div class="col">
+    <div class="col wide-card">
       <h1>Groove that Goob</h1>
       <h2>A rhythm-stealth game where players guide an alien through a penthouse party.</h2>
+
       <ul class="row">
         <li class="card-role">UX Design</li>
         <li class="card-role">Prototype</li>
+        <li class="card-role">Animation</li>
+        <li class="card-role">Music</li>
       </ul>
       <h3>Awards:</h3>
       <p>Most Innovative</p>
@@ -79,12 +85,12 @@
   </div>
 
   <!-- "Duck Memo" Card -->
-  <div class="row card">
+  <div id="duck" class="row card">
     <figure>
       <img class="card-img" src="public/images/duck/phone-duck.png" alt="A phone displays the Duck Memo application.">
       <!-- Designed by Shania Cabrera -->
     </figure>
-    <div class="col">
+    <div class="col wide-card">
       <h1>Duck Memo</h1>
       <h2>A community-driven platform that alleviates impostor syndrome by fostering support.</h2>
       <ul class="row">
@@ -99,29 +105,42 @@
 
   <!-- Footer -->
   <footer>
-    <div class="footer-wrapper">
-      <section class="footer-top">
+    <div class="row">
+      <ul class="column">
         <a href="index.html">
           <img id="footer-logo" src="public/images/name.png" alt="logo">
         </a>
         <div class="social-links">
           <a href="https://www.linkedin.com/in/shania-cabrera/">
-            <p>linked</p>
+            <p>LinkedIn</p>
             <!-- <img src="public/assets/linkedin.svg" alt="LinkedIn" /> -->
           </a>
-
         </div>
-      </section>
-
-      <ul>
-        <h3>UX/UI Design</h3>
-        <li>Groove that Goob</li>
-        <li>Duck Memo</li>
       </ul>
+
+      <ul class="column">
+        <h3>Work</h3>
+        <li><a href="index.html#goob">Groove that Goob</a></li>
+        <li><a href="index.html#duck">Duck Memo</a></li>
+      </ul>
+
+      <ul class="column">
+        <h3>Contact</h3>
+        <li>Resume</li>
+        <li>About</li>
+      </ul>
+
+      <ul class="column">
+        <h3>Creative</h3>
+        <li>Art / Animation</li>
+        <li>Music</li>
+      </ul>
+
     </div>
   </footer>
 
   <script src="public/scripts/jquery-3.6.0.js" type="text/javascript"></script>
   <script src="public/scripts/menu.js" type="text/javascript"></script>
 </body>
+
 </html>

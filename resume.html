@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=width-device, initial-scale=1">
-  <title>Resume - Cabrera</title>
+  <title>Shania Cabrera</title>
   <link href="public/styles/site.css" rel="stylesheet">
 </head>
 
 <body>
-  <html>
-    <header class="row">
+  <header class="row">
+    <nav class="topNav">
       <div class="logo">
         <a href="index.html">
           <picture>
@@ -18,18 +18,62 @@
             <img id="logo" src='public/images/name.png' alt="Shania Cabrera">
           </picture>
         </a>
-  
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="creative.html">Creative</a></li>
-          </ul>
-        </nav>
-    </header>
+      </div>
 
-    
-    <h1>Resume</h1>
-  </html>
+      <button class="ham" id="ham">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <nav class="sideNav hidden" id="sideNav">
+      <button class="menuX" id="menuX">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <ul>
+        <li><a class="menuLink" href="index.html#work">Work</a></li>
+        <li><a class="menuLink" href="resume.html">Resume</a></li>
+        <li><a class="menuLink" href="about.html">About</a></li>
+        <li><a class="menuLink" href="creative.html">Creative</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>I'm Shania Cabrera, a UI engineer and UX/interaction designer from Cornell University.</h1>
+
+  <h1 class="caps" id="work">Previous Work</h1>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-wrapper">
+      <section class="footer-top">
+        <a href="index.html">
+          <img id="footer-logo" src="public/images/name.png" alt="logo">
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/shania-cabrera/">
+            <p>LinkedIn</p>
+            <!-- <img src="public/assets/linkedin.svg" alt="LinkedIn" /> -->
+          </a>
+        </div>
+      </section>
+
+      <ul>
+        <h3>UX/UI Design</h3>
+        <li>Groove that Goob</li>
+        <li>Duck Memo</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="public/scripts/jquery-3.6.0.js" type="text/javascript"></script>
+  <script src="public/scripts/menu.js" type="text/javascript"></script>
 </body>
+
+</html>
