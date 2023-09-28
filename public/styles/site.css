@@ -250,23 +250,8 @@ footer {
         margin-bottom: 5em;
     }
 
-    /* .topNav {
-        position: fixed;
-
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 5rem;
-        align-items: center;
-        background-color: #000000;
-    } */
-
     .ham,
-    .menuX {
-        display: none;
-    }
-
+    .menuX,
     .sideNav {
         display: none;
     }
@@ -274,7 +259,6 @@ footer {
     .showOverlay {
         display: block;
     }
-    /* ---- */
 
     .card-img {
         min-width: 100px;
