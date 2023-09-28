@@ -10,7 +10,7 @@
 
 html {
     background-color: whitesmoke;
-    font-family: 'Krub', sans-serif;
+    font-family: 'Krub', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-size: 0.7em;
     scroll-behavior: smooth;
