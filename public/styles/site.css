@@ -60,11 +60,6 @@ nav ul li a {
     color: black;
 }
 
-/* Mobile - Hamburger Menu */
-header {
-    margin-bottom: 5em;
-}
-
 .topNav {
     position: fixed;
     display: flex;
@@ -122,7 +117,6 @@ header {
     display: flex;
     flex-flow: column nowrap;
     padding-top: 5rem;
-    /* align-items: end; */
 }
 
 .sideNav ul li a {
@@ -156,6 +150,10 @@ header {
 }
 
 /* Welcome*/
+#intro {
+    margin-top: 5em;
+}
+
 #hello {
     transform: rotate(-90deg);
     font-family: 'Chivo', sans-serif;
@@ -218,21 +216,26 @@ footer {
     display: none;
 }
 
-/* ----- Wide Display (desktop) ----- */
+@media (max-width: 768px) {
+    .desktopNav {
+        display: none;
+    }
+}
 
+/* ----- Wide Display (desktop) ----- */
 @media screen and (min-width: 650px) {
     .wide-row {
         display: flex;
         flex-direction: row;
     }
 
-    /* Wide navigation */
     nav li {
         display: inline;
     }
 
     img {
-        width: 20%;
+        min-width: 150px;
+        max-width: fit-content;
         height: auto;
     }
 
@@ -250,6 +253,10 @@ footer {
         margin-bottom: 5em;
     }
 
+    .topNav {
+        background-color: whitesmoke;
+    }
+
     .ham,
     .menuX,
     .sideNav {
@@ -265,7 +272,6 @@ footer {
         max-width: 250px;
         height: auto;
         margin-right: 50%;
-
     }
 
     #welcome-pic {
@@ -274,5 +280,19 @@ footer {
 
     html {
         font-size: .8em;
+    }
+
+    .desktopNav {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .desktopNav li {
+        margin-right: 2em;
+    }
+
+    #intro {
+        margin-top: 2em;
     }
 }
