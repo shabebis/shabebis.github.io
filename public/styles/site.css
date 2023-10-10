@@ -1,9 +1,7 @@
 /* COLOR PALETTE
-    Light Theme
-    whitesmoke
-
-    Dark Theme
-    #212529
+    Light Theme:  whitesmoke
+    Dark Theme:  #212529
+    Green Accent: #B1F700
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,500;0,700;0,900;1,100&family=Krub:wght@200&display=swap');
@@ -39,6 +37,7 @@ h2 {
     flex-direction: row;
 }
 
+
 .col {
     display: flex;
     flex-direction: column;
@@ -50,16 +49,19 @@ h2 {
 }
 
 /* Navigation */
-nav ul li {
-    list-style: none;
-    margin-bottom: 1.5em;
-}
-
 nav ul li a {
     text-decoration: none;
+    list-style-type: none;
     text-transform: uppercase;
     font-size: 2em;
     color: black;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+nav ul li {
+    list-style: none;
+    margin-bottom: 1.5em;
 }
 
 .topNav {
@@ -131,7 +133,8 @@ nav ul li a {
 
 .sideNav ul li a:hover,
 .sideNav ul li a:focus {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #B1F700;
+    font-weight: 900;
 }
 
 .overlay {
@@ -157,6 +160,7 @@ nav ul li a {
 }
 
 #work {
+    margin-top: 10%;
     margin-left: 8%;
 }
 
@@ -184,26 +188,35 @@ nav ul li a {
     margin-right: auto;
 }
 
-.card {
-    width: 90%;
-    height: auto;
-    /* flex-shrink: 0; */
-}
-
-.card-role {
-    list-style-type: none;
-    background-color: gainsboro;
-    border-radius: 0.25em;
-}
 
 .card-img {
     min-width: 20px;
     max-width: 150px;
-    /* width: 100%; */
     height: auto;
-    filter: drop-shadow(7px 7px 7px #666666);
-    -webkit-filter: drop-shadow(7px 7px 7px #666666);
-    /* z-index: 103; */
+    /* filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666); */
+}
+
+.card {
+    width: 90%;
+    height: auto;
+}
+
+
+.card-role-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+}
+
+.card-role {
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+
 }
 
 /* Footer */
@@ -257,6 +270,12 @@ footer {
         color: black;
     }
 
+    nav ul li a:hover {
+        background-color: #B1F700;
+        color: black;
+        font-weight: 900;
+    }
+
     header {
         margin-bottom: 5em;
     }
@@ -301,6 +320,7 @@ footer {
     }
 
     #work {
+        margin-top: 4%;
         margin-left: 3%;
     }
 
