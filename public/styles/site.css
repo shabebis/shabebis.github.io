@@ -14,6 +14,8 @@ html {
     font-style: normal;
     font-size: 0.7em;
     scroll-behavior: smooth;
+    margin-left: 0;
+    margin: 0;
 }
 
 h1 {
@@ -76,7 +78,7 @@ nav ul li a {
     position: relative;
     width: 7rem;
     height: 3rem;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
     background: none;
     border-style: groove;
     border-radius: 5px;
@@ -90,7 +92,7 @@ nav ul li a {
     right: 0;
     width: 5rem;
     height: 2rem;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
     background: none;
     border: none;
     cursor: pointer;
@@ -154,6 +156,10 @@ nav ul li a {
     margin-top: 5em;
 }
 
+#work {
+    margin-left: 8%;
+}
+
 #hello {
     transform: rotate(-90deg);
     font-family: 'Chivo', sans-serif;
@@ -181,7 +187,7 @@ nav ul li a {
 .card {
     width: 90%;
     height: auto;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 .card-role {
@@ -191,7 +197,9 @@ nav ul li a {
 }
 
 .card-img {
-    width: 100%;
+    min-width: 20px;
+    max-width: 150px;
+    /* width: 100%; */
     height: auto;
     filter: drop-shadow(7px 7px 7px #666666);
     -webkit-filter: drop-shadow(7px 7px 7px #666666);
@@ -200,10 +208,10 @@ nav ul li a {
 
 /* Footer */
 footer {
-    /* padding: 1%; */
     position: absolute;
     display: flex;
     justify-content: center;
+    max-width: 360px;
 }
 
 #footer-logo {
@@ -271,15 +279,11 @@ footer {
         min-width: 100px;
         max-width: 250px;
         height: auto;
-        margin-right: 50%;
-    }
-
-    #welcome-pic {
-        margin-left: 10%;
     }
 
     html {
         font-size: .8em;
+        margin-left: 5%;
     }
 
     .desktopNav {
@@ -294,5 +298,13 @@ footer {
 
     #intro {
         margin-top: 2em;
+    }
+
+    #work {
+        margin-left: 3%;
+    }
+
+    footer {
+        max-width: 600px;
     }
 }
