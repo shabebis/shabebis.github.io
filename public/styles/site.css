@@ -25,6 +25,11 @@ h2 {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .caps {
     font-family: 'Chivo', sans-serif;
     text-transform: uppercase;
@@ -188,20 +193,32 @@ nav ul li {
     margin-right: auto;
 }
 
-
 .card-img {
     min-width: 20px;
     max-width: 150px;
     height: auto;
-    /* filter: drop-shadow(7px 7px 7px #666666);
-    -webkit-filter: drop-shadow(7px 7px 7px #666666); */
 }
 
 .card {
     width: 90%;
+    max-width: 1120px;
     height: auto;
+    transition: transform 0.3s;
+    margin-bottom: 1em;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+    /* background-color: #B1F700, 0.9; */
+    cursor: pointer;
+}
+
+.card:hover .card-img {
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
 
 .card-role-box {
     display: flex;
@@ -219,12 +236,42 @@ nav ul li {
 
 }
 
+.back-row {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    -ms-flex-align: start;
+    margin-top: 15%;
+    /* flex-flow: nowrap; */
+}
+
+.back-row:hover {
+    text-decoration: underline;
+}
+
+#back {
+    transform: scale(0.4);
+    /* margin-left: -5%; */
+    padding: 0;
+    margin-top: 0.5%;
+}
+
+#return {
+    /* margin-left: -4%; */
+}
+
 /* Footer */
 footer {
     position: absolute;
     display: flex;
     justify-content: center;
-    max-width: 360px;
+    max-width: 300px;
+    margin-left: 5%;
+}
+
+footer ul {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 #footer-logo {
@@ -302,7 +349,7 @@ footer {
 
     html {
         font-size: .8em;
-        margin-left: 5%;
+        margin-left: 7%;
     }
 
     .desktopNav {
@@ -322,6 +369,10 @@ footer {
     #work {
         margin-top: 4%;
         margin-left: 3%;
+    }
+
+    .back-row {
+        margin-top: 0;
     }
 
     footer {

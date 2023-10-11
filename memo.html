@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duck Memo</title>
+    <link href="public/styles/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="row">
+        <nav class="topNav">
+            <div class="logo">
+                <a href="index.html">
+                    <picture>
+                        <!-- Source: name.png by Shania Cabrera-->
+                        <img id="logo" src='public/images/name.png' alt="Shania Cabrera">
+                    </picture>
+                </a>
+            </div>
+
+            <ul class="desktopNav">
+                <li><a class="menuLink" href="index.html#work">Work</a></li>
+                <li><a class="menuLink" href="about.html">About</a></li>
+                <li><a class="menuLink" href="creative.html">Creative</a></li>
+            </ul>
+
+            <button class="ham" id="ham">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </nav>
+
+        <div class="overlay"></div>
+        <nav class="sideNav hidden" id="sideNav">
+            <button class="menuX" id="menuX">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <ul>
+                <li><a class="menuLink" href="index.html#work">Work</a></li>
+                <li><a class="menuLink" href="about.html">About</a></li>
+                <li><a class="menuLink" href="creative.html">Creative</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <a href="index.html#work">
+        <div class="back-row">
+            <!-- Back Arrow SVG created by Shania Cabrera -->
+            <img id="back" src='public/images/back-arrow.svg' alt="back arrow">
+            <h2 id="return">Return to Work Page</h2>
+        </div>
+    </a>
+
+    <h1>Duck Memo</h1>
+    <p>Under Construction!</p>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <ul class="column">
+                <a href="index.html">
+                    <img id="footer-logo" src="public/images/name.png" alt="logo">
+                </a>
+
+            </ul>
+
+            <ul class="column">
+                <h3><a index.html#work>Work</a></h3>
+                <li><a href="goob.html">Goob</a></li>
+                <li><a href="memo.html">Memo</a></li>
+            </ul>
+
+            <ul class="column">
+                <h3>About</h3>
+                <li>Resume</li>
+                <li>LinkedIn</li>
+            </ul>
+
+            <ul class="column">
+                <h3>Creative</h3>
+                <li>Art</li>
+                <li>Music</li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="public/scripts/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="public/scripts/menu.js" type="text/javascript"></script>
+</body>
+
+</html>
