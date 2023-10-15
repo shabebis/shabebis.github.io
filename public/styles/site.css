@@ -42,7 +42,6 @@ a {
     flex-direction: row;
 }
 
-
 .col {
     display: flex;
     flex-direction: column;
@@ -187,6 +186,7 @@ nav ul li {
     height: auto;
     transform: rotate(7deg);
     margin-top: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     /* center */
     display: block;
     margin-left: auto;
@@ -209,10 +209,8 @@ nav ul li {
 
 .card:hover {
     transform: scale(1.05);
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     border-radius: 0.5em;
     background: linear-gradient(180deg, #B1F700 0%, rgba(177, 247, 0, 0.00) 57.29%);
-    /* background-color: #B1F700, 0.9; */
     cursor: pointer;
 }
 
