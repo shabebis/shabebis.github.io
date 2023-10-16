@@ -21,9 +21,30 @@ h2 {
     font-weight: 400;
 }
 
+h3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.25em;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p {
+    font-size: 1.40em;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #B1F700;
+    text-decoration-thickness: 3px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #B1F700;
+    text-decoration-thickness: 4px;
 }
 
 ul li {
@@ -252,7 +273,7 @@ nav ul li {
     margin-right: 1.5em;
 }
 
-.mobile-role{
+.mobile-role {
     margin-left: 3.5em;
 }
 
@@ -263,11 +284,13 @@ footer {
     justify-content: center;
     max-width: 300px;
     margin-left: 5%;
+    margin-top: 3%;
 }
 
 footer ul {
     list-style-type: none;
     text-decoration: none;
+    margin-left: -1em;
 }
 
 #footer-logo {
@@ -491,7 +514,11 @@ footer ul {
 
     footer {
         min-width: 600px;
-        margin-left: -100px;
+        margin-left: -0.20em;
         transform: scale(1.25);
+    }
+
+    footer ul {
+        margin: 0;
     }
 }
