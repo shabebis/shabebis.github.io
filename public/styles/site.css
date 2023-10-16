@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,500;0,700;0,900;1,100&family=Krub:wght@200&family=Signika:wght@300;600&display=swap');
 
-
 html {
     background-color: whitesmoke;
     font: normal 0.7em 'Krub', Helvetica, Arial, sans-serif;
@@ -27,6 +26,10 @@ a {
     color: inherit;
 }
 
+ul li {
+    font-size: 1.25em;
+}
+
 .caps {
     font: normal lighter 2em 'Krub', sans-serif;
     text-transform: uppercase;
@@ -42,6 +45,7 @@ a {
 .col {
     display: flex;
     flex-direction: column;
+
 }
 
 #logo {
@@ -166,12 +170,6 @@ nav ul li {
 #hello {
     transform: rotate(-90deg);
     font: italic lighter 1.3em 'Krub', sans-serif;
-
-
-    /* font-family: 'Chivo', sans-serif;
-    font-style: italic;
-    font-weight: lighter;
-    font-size: 1.3em; */
     align-self: flex-end;
     height: 1em;
     max-width: 2em;
@@ -230,7 +228,6 @@ nav ul li {
     border-radius: 5px;
     padding: 5px 10px;
     margin-right: 10px;
-
 }
 
 .back-row {
@@ -247,13 +244,16 @@ nav ul li {
 
 #back {
     transform: scale(0.4);
-    /* margin-left: -5%; */
     padding: 0;
     margin-top: 0.5%;
 }
 
-#return {
-    /* margin-left: -4%; */
+.medal {
+    margin-right: 1.5em;
+}
+
+.mobile-role{
+    margin-left: 3.5em;
 }
 
 /* Footer */
@@ -318,11 +318,6 @@ footer ul {
     border-radius: 1px;
 }
 
-.flip-card-front {
-    /* background-image: linear-gradient(black); */
-    /* background-color: black; */
-}
-
 .flip-card-front img {
     width: 240px;
     margin-top: 1rem;
@@ -352,14 +347,34 @@ footer ul {
     font-size: 1.5em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 749px) {
     .desktopNav {
         display: none;
     }
+
+    .desktop-card {
+        display: none;
+    }
+
+    /* .mobile-row {
+        width: 400px;
+        margin-left: -20%;
+        scale: .9;
+    }
+
+    .mobile-card {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
 }
 
 /* ----- Wide Display (desktop) ----- */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 750px) {
+    .mobile-card {
+        display: none;
+    }
+
     .wide-row {
         display: flex;
         flex-direction: row;
@@ -444,6 +459,8 @@ footer ul {
     #welcome-pic {
         margin-top: 10%;
         margin-left: 10%;
+        min-width: 270px;
+        height: auto;
     }
 
     #intro {
@@ -453,6 +470,23 @@ footer ul {
     #work {
         margin-top: 4%;
         margin-left: 3%;
+    }
+
+    #back {
+        margin-left: -5%;
+    }
+
+    #return {
+        margin-left: -3%;
+    }
+
+    .ux-page {
+        width: 93%;
+    }
+
+    .medal {
+        margin-left: -4em;
+        margin-right: -3em;
     }
 
     footer {
