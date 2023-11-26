@@ -103,6 +103,7 @@ nav ul li a {
     list-style-type: none;
     text-transform: uppercase;
     font-size: 2em;
+    font-weight: 200;
     color: black;
     position: relative;
     transition: background-color 0.3s;
@@ -208,7 +209,8 @@ nav ul li {
 
 #work {
     margin-top: 3em;
-    margin-left: 1.6em;
+    margin-left: 1.2em;
+    font-weight: 200;
 }
 
 #hello {
@@ -288,12 +290,19 @@ nav ul li {
 }
 
 #back {
-    transform: scale(0.4);
-    /* margin-top: 0.5%; */
+    transform: scale(1);
+    padding-top: 1.7em;
+    padding-left: 1em;
 }
 
 .medal {
-    margin-right: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.award-li {
+    list-style: none;
+    padding-left: 1em;
 }
 
 .mobile-role {
