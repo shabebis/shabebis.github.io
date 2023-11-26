@@ -14,7 +14,7 @@ html {
     transition: background-color 0.3s;
 }
 
-body.dark-mode {
+html.dark-mode {
     background-color: var(--dark-theme);
     color: white;
 }
@@ -27,12 +27,11 @@ footer {
     transition: background-color 0.3s, color 0.3s;
 }
 
-body.dark-mode header,
-body.dark-mode footer {
+html.dark-mode header,
+html.dark-mode footer {
     background-color: var(--dark-theme);
     color: white;
 }
-
 
 h1 {
     font: bolder 2em 'Poppins', sans-serif;
@@ -278,7 +277,7 @@ nav ul li {
     flex-direction: row;
     height: 50px;
     -ms-flex-align: start;
-    margin-top: 10%;
+    margin-top: 7em;
 }
 
 .back-row:hover {
@@ -287,7 +286,6 @@ nav ul li {
 
 #back {
     transform: scale(0.4);
-
     /* margin-top: 0.5%; */
 }
 
@@ -446,9 +444,9 @@ footer ul {
     .topNav {
         background-color: whitesmoke;
         padding-top: 2em;
-        padding-bottom: 1em;
+        padding-bottom: 2em;
         padding-left: 5em;
-        padding-right: 2em;
+        width: 90%;
     }
 
     .ham,
@@ -503,6 +501,7 @@ footer ul {
     footer {
         min-width: 600px;
         font-size: 130%;
+        margin-left: -3em;
     }
 
 }
