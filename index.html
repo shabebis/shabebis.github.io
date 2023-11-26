@@ -8,14 +8,16 @@
   <link href="public/styles/site.css" rel="stylesheet">
 </head>
 
+
 <body>
+
   <header class="row">
     <nav class="topNav">
       <div class="logo">
         <a href="index.html">
           <picture>
             <!-- Source: name.png by Shania Cabrera-->
-            <img id="logo" src='public/images/name.png' alt="Shania Cabrera">
+            <img id="logo" src='public/images/name.png' alt="Logo: Shania Cabrera">
           </picture>
         </a>
       </div>
@@ -48,166 +50,180 @@
     </nav>
   </header>
 
-  <div class="wide-row">
-    <div class="row" id="intro">
-      <p id="hello" class="caps">Hello¡Hola!</p>
-      <div class="col">
-        <h1>I'm Shania Cabrera, a UI engineer and UX/interaction designer from Cornell University.</h1>
-        <h2>I hope to create immersive user experiences and drive innovation in the tech and gaming industry.
-        </h2>
-        <p class="underline"><a href="about.html">More in <em>About!</em></a></p>
+
+  <main>
+    <div class="wide-row">
+      <div class="row" id="intro">
+        <p id="hello" class="caps">Hello¡Hola!</p>
+        <div class="col">
+          <!-- <input type="checkbox" id="dark-mode-toggle">
+           <label for="dark-mode-toggle">Dark Mode</label> -->
+
+          <h1>Hi! I'm Shania Cabrera, a UI engineer and UX designer from Cornell University.</h1>
+          <h2>As a prospective UX designer, my goal is to contribute to the development of tools that empower artists
+            in their craft. Whether it's the enchanting world of music production, game design,
+            or content distribution, I am driven by the desire to enhance the way artists engage
+            with their tools.
+          </h2>
+          <p class="underline"><a href="about.html">More in <em>About!</em></a></p>
+        </div>
+
+        <picture class="desktop-card">
+          <img id="welcome-pic" src="public/images/cover.JPG" alt="Shania smiles in the Fine Arts Library.">
+          <!-- Original content by Shania Cabrera -->
+        </picture>
       </div>
     </div>
 
-    <picture>
+    <picture class="mobile-card">
       <img id="welcome-pic" src="public/images/cover.JPG" alt="Shania smiles in the Fine Arts Library.">
       <!-- Original content by Shania Cabrera -->
     </picture>
-  </div>
 
-  <h1 class="caps" id="work">Previous Work</h1>
+    <h1 class="caps" id="work">Previous Work</h1>
 
-  <!-- DESKTOP Goob Card -->
-  <div class="desktop-card">
-    <a href="goob.html">
-      <div id="goob" class="row card">
-        <figure>
-          <img class="card-img" src="public/images/goob/goob-poster.PNG"
-            alt="Poster for Groove that Goob. Goob looks up at a towering skyscraper.">
-          <!-- Illustrated by Ashley Xiang. Composited by Leon Carranza -->
-        </figure>
-
-        <div class="col wide-card">
-          <h1>Groove that Goob</h1>
-          <h2>A rhythm-stealth game where players guide an alien through a penthouse party.</h2>
-
-          <ul class="card-role-box">
-            <li class="card-role">UX Design</li>
-            <li class="card-role">Prototype</li>
-            <li class="card-role">Animation</li>
-            <li class="card-role">Music</li>
-          </ul>
-
-          <div class="row">
-            <img class="medal" src="public/images/award-icon.svg">
-            <h3>Awards:</h3>
-          </div>
-          <ul>
-            <li>Most Innovative</li>
-            <li>#3 Audience Favorite</li>
-          </ul>
-        </div>
-      </div>
-    </a>
-  </div>
-
-  <!-- MOBILE Goob Card -->
-  <div class="mobile-card">
-    <a href="goob.html">
-      <div id="goob" class="card">
-
-        <div class="row mobile-row">
+    <!-- DESKTOP Goob Card -->
+    <div class="desktop-card">
+      <a href="goob.html">
+        <div id="goob" class="row card">
           <figure>
             <img class="card-img" src="public/images/goob/goob-poster.PNG"
               alt="Poster for Groove that Goob. Goob looks up at a towering skyscraper.">
             <!-- Illustrated by Ashley Xiang. Composited by Leon Carranza -->
           </figure>
 
-          <div class="col">
+          <div class="col wide-card">
             <h1>Groove that Goob</h1>
             <h2>A rhythm-stealth game where players guide an alien through a penthouse party.</h2>
+
+            <ul class="card-role-box">
+              <li class="card-role">UX Design</li>
+              <li class="card-role">Prototype</li>
+              <li class="card-role">Animation</li>
+              <li class="card-role">Music</li>
+            </ul>
+
+            <div class="row">
+              <img class="medal" src="public/images/award-icon.svg">
+              <h3>Awards:</h3>
+            </div>
+            <ul>
+              <li>Most Innovative</li>
+              <li>#3 Audience Favorite</li>
+            </ul>
           </div>
         </div>
+      </a>
+    </div>
 
-        <div class="row mobile-role">
-          <ul class="card-role-box">
-            <li class="card-role">UX Design</li>
-            <li class="card-role">Prototype</li>
-            <li class="card-role">Animation</li>
-            <li class="card-role">Music</li>
-          </ul>
-        </div>
+    <!-- MOBILE Goob Card -->
+    <div class="mobile-card">
+      <a href="goob.html">
+        <div id="goob" class="card">
 
-        <div class="row mobile-role">
-          <img class="medal" src="public/images/award-icon.svg">
-          <h3>Awards:</h3>
+          <div class="row mobile-row">
+            <figure>
+              <img class="card-img" src="public/images/goob/goob-poster.PNG"
+                alt="Poster for Groove that Goob. Goob looks up at a towering skyscraper.">
+              <!-- Illustrated by Ashley Xiang. Composited by Leon Carranza -->
+            </figure>
 
-          <ul>
-            <li>Most Innovative</li>
-            <li>#3 Audience Favorite</li>
-          </ul>
-        </div>
+            <div class="col">
+              <h1>Groove that Goob</h1>
+              <h2>A rhythm-stealth game where players guide an alien through a penthouse party.</h2>
+            </div>
+          </div>
 
-      </div>
-    </a>
-  </div>
+          <div class="row mobile-role">
+            <ul class="card-role-box">
+              <li class="card-role">UX Design</li>
+              <li class="card-role">Prototype</li>
+              <li class="card-role">Animation</li>
+              <li class="card-role">Music</li>
+            </ul>
+          </div>
 
-
-  <!-- DESKTOP "Duck Memo" Card -->
-  <div class="desktop-card">
-    <a href="memo.html">
-      <div id="duck" class="row card">
-        <figure>
-          <img class="card-img" src="public/images/duck/phone-duck.png"
-            alt="A phone displays the Duck Memo application.">
-          <!-- Designed by Shania Cabrera -->
-        </figure>
-        <div class="col wide-card">
-          <h1>Duck Memo</h1>
-          <h2>A community-driven platform that alleviates impostor syndrome by fostering support.</h2>
-          <ul class="card-role-box">
-            <li class="card-role">UX Design</li>
-            <li class="card-role">Prototype</li>
-          </ul>
-
-          <div class="row">
+          <div class="row mobile-role">
             <img class="medal" src="public/images/award-icon.svg">
             <h3>Awards:</h3>
+
+            <ul>
+              <li>Most Innovative</li>
+              <li>#3 Audience Favorite</li>
+            </ul>
           </div>
-          <ul>
-            <li>Greatest Social Impact</li>
-          </ul>
+
         </div>
-      </div>
-    </a>
-  </div>
+      </a>
+    </div>
 
-  <!-- MOBILE "Duck Memo" Card -->
-  <div class="mobile-card">
-    <a href="memo.html">
-      <div id="duck" class="card">
 
-        <div class="row mobile-row">
+    <!-- DESKTOP "Duck Memo" Card -->
+    <div class="desktop-card">
+      <a href="memo.html">
+        <div id="duck" class="row card">
           <figure>
             <img class="card-img" src="public/images/duck/phone-duck.png"
               alt="A phone displays the Duck Memo application.">
             <!-- Designed by Shania Cabrera -->
           </figure>
-
-          <div class="col">
+          <div class="col wide-card">
             <h1>Duck Memo</h1>
             <h2>A community-driven platform that alleviates impostor syndrome by fostering support.</h2>
+            <ul class="card-role-box">
+              <li class="card-role">UX Design</li>
+              <li class="card-role">Prototype</li>
+            </ul>
+
+            <div class="row">
+              <img class="medal" src="public/images/award-icon.svg">
+              <h3>Awards:</h3>
+            </div>
+            <ul>
+              <li>Greatest Social Impact</li>
+            </ul>
           </div>
         </div>
+      </a>
+    </div>
 
-        <div class="row mobile-role">
-          <ul class="card-role-box">
-            <li class="card-role">UX Design</li>
-            <li class="card-role">Prototype</li>
-          </ul>
+    <!-- MOBILE "Duck Memo" Card -->
+    <div class="mobile-card">
+      <a href="memo.html">
+        <div id="duck" class="card">
+
+          <div class="row mobile-row">
+            <figure>
+              <img class="card-img" src="public/images/duck/phone-duck.png"
+                alt="A phone displays the Duck Memo application.">
+              <!-- Designed by Shania Cabrera -->
+            </figure>
+
+            <div class="col">
+              <h1>Duck Memo</h1>
+              <h2>A community-driven platform that alleviates impostor syndrome by fostering support.</h2>
+            </div>
+          </div>
+
+          <div class="row mobile-role">
+            <ul class="card-role-box">
+              <li class="card-role">UX Design</li>
+              <li class="card-role">Prototype</li>
+            </ul>
+          </div>
+
+          <div class="row mobile-role">
+            <img class="medal" src="public/images/award-icon.svg">
+            <h3>Awards:</h3>
+            <ul>
+              <li>Greatest Social Impact</li>
+            </ul>
+          </div>
+
         </div>
-
-        <div class="row mobile-role">
-          <img class="medal" src="public/images/award-icon.svg">
-          <h3>Awards:</h3>
-          <ul>
-            <li>Greatest Social Impact</li>
-          </ul>
-        </div>
-
-      </div>
-    </a>
-  </div>
+      </a>
+    </div>
+  </main>
 
 
   <!-- Footer -->
@@ -229,7 +245,8 @@
       <ul class="column">
         <h3><a href="about.html">About</a></h3>
         <li>Resume</li>
-        <li><a href="https://www.linkedin.com/in/shania-cabrera/">LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/shania-cabrera/" rel="noopener noreferrer">LinkedIn</a></li>
+
       </ul>
 
       <ul class="column">
@@ -241,8 +258,10 @@
     </div>
   </footer>
 
+  <!-- <script src="public/scripts/dark.js" type="text/javascript"></script> -->
   <script src="public/scripts/jquery-3.6.0.js" type="text/javascript"></script>
   <script src="public/scripts/menu.js" type="text/javascript"></script>
+
 </body>
 
 </html>
